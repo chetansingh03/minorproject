@@ -38,7 +38,7 @@ k {
     border-bottom-style: none;
 }
 
-@media screen and (max-wdth:999px) {
+@media screen and (max-wdth: 999px) {
     .container-fluid {
         width: 100%;
         height: auto;
@@ -62,7 +62,6 @@ k {
         height: auto;
         margin: auto;
     }
-    ;
 }
 
 .a {
@@ -182,7 +181,7 @@ k {
 
 .bb:after {
     position: absolute;
-    content: '>';
+    content: ">";
     color: rgb(3, 34, 191);
     opacity: 0;
     transition: 0.8s;
@@ -190,4 +189,12 @@ k {
 
 .bb:hover:after {
     opacity: 1;
+}
+
+.username {
+    visibility: hidden;
+}
+
+.passwd {
+    visibility: hidden;
 }
